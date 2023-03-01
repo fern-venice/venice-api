@@ -11,6 +11,7 @@
         "tags": [
           "Introspection"
         ],
+        "operationId": "get",
         "summary": "OpenAPI description (this document)",
         "responses": {
           "200": {
@@ -24,6 +25,7 @@
         "tags": [
           "account"
         ],
+        "operationId": "get",
         "summary": "@graphql({",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
@@ -121,6 +123,7 @@
         "tags": [
           "account"
         ],
+        "operationId": "create",
         "summary": "@graphql({",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
@@ -144,6 +147,7 @@
         "tags": [
           "account"
         ],
+        "operationId": "delete",
         "summary": "@graphql({",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
@@ -194,6 +198,7 @@
         "tags": [
           "account"
         ],
+        "operationId": "update",
         "summary": "@graphql({",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
@@ -249,6 +254,7 @@
         "tags": [
           "institution"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.institution.id"
@@ -329,6 +335,7 @@
         "tags": [
           "institution"
         ],
+        "operationId": "create",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -350,6 +357,7 @@
         "tags": [
           "institution"
         ],
+        "operationId": "delete",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.institution.id"
@@ -383,6 +391,7 @@
         "tags": [
           "institution"
         ],
+        "operationId": "update",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.institution.id"
@@ -421,6 +430,7 @@
         "tags": [
           "integration"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.integration.id"
@@ -498,6 +508,7 @@
         "tags": [
           "integration"
         ],
+        "operationId": "create",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -519,6 +530,7 @@
         "tags": [
           "integration"
         ],
+        "operationId": "delete",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.integration.id"
@@ -549,6 +561,7 @@
         "tags": [
           "integration"
         ],
+        "operationId": "update",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.integration.id"
@@ -584,6 +597,7 @@
         "tags": [
           "pipeline"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.pipeline.id"
@@ -676,6 +690,7 @@
         "tags": [
           "pipeline"
         ],
+        "operationId": "create",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -697,6 +712,7 @@
         "tags": [
           "pipeline"
         ],
+        "operationId": "delete",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.pipeline.id"
@@ -742,6 +758,7 @@
         "tags": [
           "pipeline"
         ],
+        "operationId": "update",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.pipeline.id"
@@ -792,6 +809,7 @@
         "tags": [
           "raw_account"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_account.id"
@@ -878,6 +896,7 @@
         "tags": [
           "raw_account"
         ],
+        "operationId": "create",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -899,6 +918,7 @@
         "tags": [
           "raw_account"
         ],
+        "operationId": "delete",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_account.id"
@@ -938,6 +958,7 @@
         "tags": [
           "raw_account"
         ],
+        "operationId": "update",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_account.id"
@@ -982,6 +1003,7 @@
         "tags": [
           "raw_commodity"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_commodity.id"
@@ -1172,6 +1194,7 @@
         "tags": [
           "raw_transaction"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_transaction.id"
@@ -1362,6 +1385,7 @@
         "tags": [
           "resource"
         ],
+        "operationId": "get",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.resource.id"
@@ -1570,6 +1594,7 @@
         "tags": [
           "transaction"
         ],
+        "operationId": "get",
         "summary": "TODO: Add description of transaction data type here...",
         "description": "@graphql({\n\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"description\": \"Double entry transaction\",\n\t\"foreign_keys\": [\n\t\t{\n      \"local_name\": \"transactions\",\n      \"local_columns\": [\"account_id\"],\n      \"foreign_name\": \"account\",\n      \"foreign_schema\": \"public\",\n      \"foreign_table\": \"account\",\n      \"foreign_columns\": [\"id\"]\n\t\t}\n\t]\n})",
         "parameters": [
@@ -1813,6 +1838,7 @@
         "tags": [
           "transaction_split"
         ],
+        "operationId": "get",
         "summary": "Entities summary",
         "description": "  Entities description that\n  spans\n  multiple lines\n  \n  \n\t@graphql({\n\t\t\"primary_key_columns\": [\"id\", \"key\"],\n\t\t\"totalCount\": {\"enabled\": true},\n\t\t\"foreign_keys\": []\n\t})\n",
         "parameters": [
