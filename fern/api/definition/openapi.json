@@ -26,6 +26,7 @@
           "account"
         ],
         "operationId": "get",
+        "x-request-name": "GetAccount",
         "summary": "@graphql({",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
@@ -124,6 +125,7 @@
           "account"
         ],
         "operationId": "create",
+        "x-request-name": "CreateAccount",
         "summary": "@graphql({",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
@@ -149,6 +151,7 @@
         ],
         "operationId": "delete",
         "summary": "@graphql({",
+        "x-request-name": "DeleteAccount",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
           {
@@ -200,6 +203,7 @@
         ],
         "operationId": "update",
         "summary": "@graphql({",
+        "x-request-name": "UpdateAccount",
         "description": "\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"foreign_keys\": []\n})",
         "parameters": [
           {
@@ -255,6 +259,7 @@
           "institution"
         ],
         "operationId": "get",
+        "x-request-name": "GetInstitution",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.institution.id"
@@ -336,6 +341,7 @@
           "institution"
         ],
         "operationId": "create",
+        "x-request-name": "CreateInstitution",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -358,6 +364,7 @@
           "institution"
         ],
         "operationId": "delete",
+        "x-request-name": "DeleteInstitution",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.institution.id"
@@ -392,6 +399,7 @@
           "institution"
         ],
         "operationId": "update",
+        "x-request-name": "UpdateInstitution",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.institution.id"
@@ -431,6 +439,7 @@
           "integration"
         ],
         "operationId": "get",
+        "x-request-name": "GetIntegration",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.integration.id"
@@ -509,6 +518,7 @@
           "integration"
         ],
         "operationId": "create",
+        "x-request-name": "CreateIntegration",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -531,6 +541,7 @@
           "integration"
         ],
         "operationId": "delete",
+        "x-request-name": "DeleteIntegration",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.integration.id"
@@ -562,6 +573,7 @@
           "integration"
         ],
         "operationId": "update",
+        "x-request-name": "UpdateIntegration",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.integration.id"
@@ -598,6 +610,7 @@
           "pipeline"
         ],
         "operationId": "get",
+        "x-request-name": "GetPipeline",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.pipeline.id"
@@ -691,6 +704,7 @@
           "pipeline"
         ],
         "operationId": "create",
+        "x-request-name": "CreatePipeline",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -713,6 +727,7 @@
           "pipeline"
         ],
         "operationId": "delete",
+        "x-request-name": "DeletePipeline",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.pipeline.id"
@@ -759,6 +774,7 @@
           "pipeline"
         ],
         "operationId": "update",
+        "x-request-name": "update_pipeline",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.pipeline.id"
@@ -810,6 +826,7 @@
           "raw_account"
         ],
         "operationId": "get",
+        "x-request-name": "get_raw_account",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_account.id"
@@ -897,6 +914,7 @@
           "raw_account"
         ],
         "operationId": "create",
+        "x-request-name": "create_raw_account",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -919,6 +937,7 @@
           "raw_account"
         ],
         "operationId": "delete",
+        "x-request-name": "delete_raw_account",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_account.id"
@@ -959,6 +978,7 @@
           "raw_account"
         ],
         "operationId": "update",
+        "x-request-name": "update_raw_account",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_account.id"
@@ -1004,6 +1024,7 @@
           "raw_commodity"
         ],
         "operationId": "get",
+        "x-request-name": "get_raw_commodity",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_commodity.id"
@@ -1091,6 +1112,7 @@
           "raw_commodity"
         ],
         "operationId": "create",
+        "x-request-name": "create_raw_commodity",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -1113,6 +1135,7 @@
           "raw_commodity"
         ],
         "operationId": "delete",
+        "x-request-name": "delete_raw_commodity",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_commodity.id"
@@ -1153,6 +1176,7 @@
           "raw_commodity"
         ],
         "operationId": "update",
+        "x-request-name": "update_raw_commodity",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_commodity.id"
@@ -1198,6 +1222,7 @@
           "raw_transaction"
         ],
         "operationId": "get",
+        "x-request-name": "get_raw_transaction",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_transaction.id"
@@ -1285,6 +1310,7 @@
           "raw_transaction"
         ],
         "operationId": "create",
+        "x-request-name": "create_raw_transaction",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -1307,6 +1333,7 @@
           "raw_transaction"
         ],
         "operationId": "delete",
+        "x-request-name": "delete_raw_transaction",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_transaction.id"
@@ -1347,6 +1374,7 @@
           "raw_transaction"
         ],
         "operationId": "update",
+        "x-request-name": "update_raw_transaction",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.raw_transaction.id"
@@ -1392,6 +1420,7 @@
           "resource"
         ],
         "operationId": "get",
+        "x-request-name": "get_resource",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.resource.id"
@@ -1485,6 +1514,7 @@
           "resource"
         ],
         "operationId": "create",
+        "x-request-name": "create_resource",
         "parameters": [
           {
             "$ref": "#/components/parameters/select"
@@ -1507,6 +1537,7 @@
           "resource"
         ],
         "operationId": "delete",
+        "x-request-name": "delete_resource",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.resource.id"
@@ -1553,6 +1584,7 @@
           "resource"
         ],
         "operationId": "update",
+        "x-request-name": "update_resource",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.resource.id"
@@ -1604,6 +1636,7 @@
           "transaction"
         ],
         "operationId": "get",
+        "x-request-name": "get_transaction",
         "summary": "TODO: Add description of transaction data type here...",
         "description": "@graphql({\n\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"description\": \"Double entry transaction\",\n\t\"foreign_keys\": [\n\t\t{\n      \"local_name\": \"transactions\",\n      \"local_columns\": [\"account_id\"],\n      \"foreign_name\": \"account\",\n      \"foreign_schema\": \"public\",\n      \"foreign_table\": \"account\",\n      \"foreign_columns\": [\"id\"]\n\t\t}\n\t]\n})",
         "parameters": [
@@ -1708,6 +1741,7 @@
           "transaction"
         ],
         "operationId": "create",
+        "x-request-name": "create_transaction",
         "summary": "TODO: Add description of transaction data type here...",
         "description": "@graphql({\n\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"description\": \"Double entry transaction\",\n\t\"foreign_keys\": [\n\t\t{\n      \"local_name\": \"transactions\",\n      \"local_columns\": [\"account_id\"],\n      \"foreign_name\": \"account\",\n      \"foreign_schema\": \"public\",\n      \"foreign_table\": \"account\",\n      \"foreign_columns\": [\"id\"]\n\t\t}\n\t]\n})",
         "parameters": [
@@ -1731,6 +1765,7 @@
         "tags": [
           "transaction"
         ],
+        "x-request-name": "delete_transaction",
         "summary": "TODO: Add description of transaction data type here...",
         "description": "@graphql({\n\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"description\": \"Double entry transaction\",\n\t\"foreign_keys\": [\n\t\t{\n      \"local_name\": \"transactions\",\n      \"local_columns\": [\"account_id\"],\n      \"foreign_name\": \"account\",\n      \"foreign_schema\": \"public\",\n      \"foreign_table\": \"account\",\n      \"foreign_columns\": [\"id\"]\n\t\t}\n\t]\n})",
         "operationId": "delete",
@@ -1790,7 +1825,8 @@
         ],
         "summary": "TODO: Add description of transaction data type here...",
         "description": "@graphql({\n\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"description\": \"Double entry transaction\",\n\t\"foreign_keys\": [\n\t\t{\n      \"local_name\": \"transactions\",\n      \"local_columns\": [\"account_id\"],\n      \"foreign_name\": \"account\",\n      \"foreign_schema\": \"public\",\n      \"foreign_table\": \"account\",\n      \"foreign_columns\": [\"id\"]\n\t\t}\n\t]\n})",
-        "operationId": "patch",
+        "operationId": "create",
+        "x-request-name": "create_transaction",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.transaction.id"
@@ -1851,6 +1887,7 @@
           "transaction_split"
         ],
         "operationId": "get",
+        "x-request-name": "get_transaction_split",
         "summary": "Entities summary",
         "description": "  Entities description that\n  spans\n  multiple lines\n  \n  \n\t@graphql({\n\t\t\"primary_key_columns\": [\"id\", \"key\"],\n\t\t\"totalCount\": {\"enabled\": true},\n\t\t\"foreign_keys\": []\n\t})\n",
         "parameters": [
@@ -1967,12 +2004,7 @@
         "required": false,
         "in": "header",
         "schema": {
-          "type": "string",
-          "enum": [
-            "return=representation",
-            "return=minimal",
-            "return=none"
-          ]
+          "$ref": "#/components/schemas/return"
         }
       },
       "preferCount": {
@@ -1981,10 +2013,7 @@
         "required": false,
         "in": "header",
         "schema": {
-          "type": "string",
-          "enum": [
-            "count=none"
-          ]
+          "$ref": "#/components/schemas/count"
         }
       },
       "preferPost": {
@@ -1993,14 +2022,7 @@
         "required": false,
         "in": "header",
         "schema": {
-          "type": "string",
-          "enum": [
-            "return=representation",
-            "return=minimal",
-            "return=none",
-            "resolution=ignore-duplicates",
-            "resolution=merge-duplicates"
-          ]
+          "$ref": "#/components/schemas/return"
         }
       },
       "select": {
@@ -3123,6 +3145,32 @@
           }
         },
         "type": "object"
+      },
+      "count": {
+        "type": "string",
+        "enum": [
+          "count=none"
+        ], 
+        "x-enum-names": {
+          "count=none": "None"
+        }
+      },
+      "return": {
+        "type": "string",
+        "enum": [
+          "return=representation",
+          "return=minimal",
+          "return=none",
+          "resolution=ignore-duplicates",
+          "resolution=merge-duplicates"
+        ],
+        "x-enum-names": {
+          "return=representation": "Representation",
+          "return=minimal": "Minimal",
+          "return=none": "None",
+          "resolution=ignore-duplicates": "Ignore_Duplicates",
+          "resolution=merge-duplicates": "Merge_Duplicates"
+        }
       },
       "integration": {
         "required": [
