@@ -2,7 +2,7 @@
 
 Tagging a release on this repository will update the:
 
-- [Node.js SDK repo](https://github.com/fern-{company}/{company}-node)
+- [Node.js SDK repo](https://github.com/fern-venice/venice-ts)
 - _More SDKs to come..._
 
 ## What is in this repository?
