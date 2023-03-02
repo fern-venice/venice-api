@@ -10,4 +10,4 @@ groups:
         config: 
           namespaceExport: Venice
         github:
-          repository: fern-venice/venice-node
+          repository: fern-venice/venice-ts
