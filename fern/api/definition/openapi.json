@@ -1825,8 +1825,8 @@
         ],
         "summary": "TODO: Add description of transaction data type here...",
         "description": "@graphql({\n\t\"primary_key_columns\": [\"id\"],\n\t\"totalCount\": {\"enabled\": true},\n\t\"description\": \"Double entry transaction\",\n\t\"foreign_keys\": [\n\t\t{\n      \"local_name\": \"transactions\",\n      \"local_columns\": [\"account_id\"],\n      \"foreign_name\": \"account\",\n      \"foreign_schema\": \"public\",\n      \"foreign_table\": \"account\",\n      \"foreign_columns\": [\"id\"]\n\t\t}\n\t]\n})",
-        "operationId": "create",
-        "x-request-name": "create_transaction",
+        "operationId": "update",
+        "x-request-name": "update_transaction",
         "parameters": [
           {
             "$ref": "#/components/parameters/rowFilter.transaction.id"
