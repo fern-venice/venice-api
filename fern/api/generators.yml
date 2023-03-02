@@ -1,14 +1,4 @@
 groups:
-  test: 
-    generators:
-      - name: fernapi/fern-typescript-sdk
-        version: 0.2.2
-        output:
-          location: npm
-          url: npm.buildwithfern.com
-          package-name: '@fern-venice/api'
-        config: 
-          namespaceExport: Venice
   publish:
     generators:
       - name: fernapi/fern-typescript-sdk
@@ -20,4 +10,4 @@ groups:
         config: 
           namespaceExport: Venice
         github:
-          repository: fern-venice/venice-node
+          repository: fern-venice/venice-ts
